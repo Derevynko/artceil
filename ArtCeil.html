@@ -3,59 +3,78 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="autor" content="Maxjunlox">
+  <meta name="keywords" content="Потолочные покрытия">
+  <meta name="description" content="Материалы для внутренней отделки потоков">
+  <meta name="reviewmaster" content="expert FILLIP ZHYRAVLEV">
   <link rel="stylesheet" href="Styles/Style.css">
   <title>Потолочные покрытия</title>
 </head>
 
 <body>
   <header class="header">
-    <div class="header__top">
-      <div class="header__top top__menu">
-        <div class="header__orangeline"></div>
-        <div class="header__greenline"></div>
-        <div class="header__blueline"></div>
-        <div class="header__menu">МЕНЮ</div>
+    <div class="header-top">
+      <div class="top-menu">
+        <div class="header-top__orangeline"></div>
+        <div class="animation-greenlines">
+        <div class="header-top__greenline"></div>
+        <div class="header-top__greenline invisible"></div>
+        </div>
+        <div class="header-top__blueline"></div>
+        <div class="header-top__menu">МЕНЮ</div>
       </div>
-      <div class="header__contacts">
-        <div>Email:<span class="header__contacts_content">shiningfinger@list.ru</span></div>
-        <div>Телефон:<span class="header__contacts_content">+7 (985) 905-12-51</span></div>
+      <nav class="animation-menu">
+        <section class="footer-menu footer-menu_header">
+          <div class="footer-menu__content footer-menu__content_main"><a>Глав<span
+                class="footer-menu__content_end">ная</span></a></div>
+          <div class="footer-menu__content"><a>Каталог</a></div>
+          <div class="footer-menu__content"><a>Сервис</a></div>
+          <div class="footer-menu__content"><a>Контакты</a></div>
+        </section>
+      </nav>
+
+      <div class="header-contacts">
+        <div>Email:<span class="header-contacts__content">shiningfinger@list.ru</span></div>
+        <div>Телефон:<span class="header-contacts__content">+7 (985) 905-12-51</span></div>
       </div>
-      <div class="header__logo">
-        <img class="header__logo-image" src="../Artceil/Images/logo.png">
-        <div class="header__logo_content">Art<span class="Ceil">Ceil</span><span class="tochka">.</span>
-          <div class="header__logo_name">Цитадель потолочных покрытий</div>
+      <div class="header-logo">
+        <img class="header-logo__image" src="./Images/logo.png">
+        <div class="header-logo-content">Art<span class="header-logo-content_orange">Ceil</span><span
+            class="header-logo-content_dark-purple">.</span>
+          <div class="header-logo-name">Цитадель потолочных покрытий</div>
         </div>
       </div>
-      <div class="header__search">
-        <input class="header__search_content" placeholder="Поиск">
-        <img src="../Artceil/Images/search.png" class="header__search_image">
+      <div class="header-search">
+        <input class="header-search__content" placeholder="Поиск">
+        <img src="./Images/search.png" class="header-search__image">
       </div>
-      <div class="header__connection">
-        <div class="header__connection_calling"><button class="header__button button_calling">Обратный вызов</button>
-          <img class="picture_calling" src="../Artceil/Images/callback.png">
+      <div class="header-connection">
+        <div class="header-connection-calling"><button class="button button_green">Обратный вызов</button>
+          <img class="header-connection-calling__picture header-connection-calling__picture_calling"
+            src="./Images/callback.png">
         </div>
-        <div class="header__connection_calling"><button class="header__button button_favorite">Оформить заказ</button>
-          <img class="picture_favorite" src="../Artceil/Images/favorite.png">
+        <div class="header-connection-calling"><button class="button button_blue">Оформить заказ</button>
+          <img class="header-connection-calling__picture header-connection-calling__picture_favorite"
+            src="./Images/favorite.png">
         </div>
       </div>
     </div>
   </header>
   <main>
-    <div class="header__bot container">
-      <div class="header__bot_menu"><a class="brends">Бренды</a>
-        <p class="">,&nbsp</p> <a class="brends"> Категории</a>
+    <div class="content-header container">
+      <div class="breadcrumbs">
+        <a class="breadcrumbs__breadcrumb">Бренды</a>
+        <a class="breadcrumbs__breadcrumb">Категории</a>
       </div>
-      <div class="header__logo_name name__main">Цитадель потолочных покрытий</div>
-      <div class="header__maintext">
-        <p class="header__maintextt">ВЫСТАВОЧНЫЙ ЗАЛ</p>
+      <div class="content-header__subtitle-main">Цитадель потолочных покрытий</div>
+      <div class="header-maintext">
+        <p class="header-maintext__content">ВЫСТАВОЧНЫЙ ЗАЛ</p>
       </div>
-      <div class="main_logo">
-        <img src="./Images/logo_2.png">
-      </div>
+      <img class="content-header__logo" src="./Images/logo_2.png">
     </div>
-    <div class="main-brends container">
+    <section class="main-brends container">
       <h1>БРЕНДЫ</h1>
-      <div class="brends-contant">
+      <div class="brends-content">
         <img src="./Images/Brends_picture_1.png">
         <img src="./Images/Brends_picture_2.png">
         <img class="brends-contant__picture" src="./Images/Brends_picture_3.png">
@@ -65,163 +84,176 @@
         </div>
         <img class="brends-contant__picture" src="./Images/Brends_picture_5.png">
       </div>
-      <div>
-        <section class="main-category">
-          <h1>КАТЕГОРИИ</h1>
-          <section class="category-contant">
-            <h2 class="category-texture__text">TEКСТУРА</h2>
-            <div class="texture-picture">
-              <article class="category-preview">
-                <img src="./Images/texture_picture_1.png">
-                <h3 class="texture-picture-text text_dark">АЛЮМИНИЙ</h3>
-              </article>
-              <article class="category-preview">
-                <img src="./Images/texture_picture_2.png">
-                <h3 class="texture-picture-text text_white">СТАЛЬ</h3>
-              </article>
-            </div>
-          </section>
-          <section class="category-contant contant-forms">
-            <h2 class="category-texture__text">ФОРМЫ</h2>
-            <div class="texture-picture">
-              <article class="category-preview">
-                <img src="./Images/form_picture_1.png">
-                <div class="texture-picture-text">
-                  <div class="text_dark"><h3>КРИВОЛИНЕЙНАЯ</h3></div>
-                  <div class="popup">Текст-набивака</div>
-                </div>
-              </article>
-              <article class="category-preview">
-                <img src="./Images/form_picture_2.png">
-                <h3 class="texture-picture-text text_white">ПЕРФОРАЦИЯ</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/form_picture_3.png">
-                <h3 class="texture-picture-text text_white">СЕТКА</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/form_picture_3.png">
-                <h3 class="texture-picture-text text_dark">ПАНЕЛИ</h3>
-              </article>
-            </div>
-          </section>
-          <section class="category-contant contant-forms">
-            <h2 class="category-texture__text">СИСТЕМЫ</h2>
-            <div class="texture-picture">
-              <article class="category-preview">
-                <img src="./Images/system_picture_1.png">
-                <h3 class="texture-picture-text text_dark">СОЛНЦЕЗАЩИТНЫЕ</h3>
-              </article>
-              <article class="category-preview">
-                <img src="./Images/system_picture_2.png">
-                <h3 class="texture-picture-text text_white">ФАСАДНЫЕ</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/system_picture_3.png">
-                <h3 class="texture-picture-text text_white">ПОТОЛОЧНЫЕ</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/system_picture_4.png">
-                <h3 class="texture-picture-text text_dark">ПОДВЕСНЫЕ</h3>
-              </article>
-            </div>
-          </section>
-          <section class="category-contant contant-forms">
-            <h2 class="category-texture__text">СВЕТИЛЬНИКИ</h2>
-            <div class="texture-picture">
-              <article class="category-preview">
-                <img src="./Images/lamp_picture_1.png">
-                <h3 class="texture-picture-text text_dark">УТОПЛЕННЫЕ В ПОТОЛОК</h3>
-              </article>
-              <article class="category-preview">
-                <img src="./Images/lamp_picture_2.png">
-                <h3 class="texture-picture-text text_white">TOKAY</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/lamp_picture_2.png">
-                <h3 class="texture-picture-text text_white">ПОТОЛОЧНЫЕ</h3>
-              </article>
-              <article class="category-preview preview-setka">
-                <img src="./Images/lamp_picture_3.png">
-                <h3 class="texture-picture-text text_dark">КОМБИНИРОВАННЫЕ</h3>
-              </article>
-            </div>
-          </section>
+      <section class="main-categories">
+        <h1>КАТЕГОРИИ</h1>
+        <section class="main-categories-content">
+          <h2 class="category-content__title">TEКСТУРА</h2>
+          <div class="main-content-categories-list">
+            <article class="category-preview">
+              <img src="./Images/texture_picture_1.png">
+              <h3 class="category-preview__title">АЛЮМИНИЙ</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/texture_picture_2.png">
+              <h3 class="category-preview__title category-preview__title_dark">СТАЛЬ</h3>
+            </article>
+          </div>
         </section>
+        <section class="content-forms">
+          <h2 class="category-content__title">ФОРМЫ</h2>
+          <div class="main-content-categories-list">
+            <article class="category-preview">
+              <img src="./Images/form_picture_1.png">
+              <div class="popup">
+                <h3 class="category-preview__title">КРИВОЛИНЕЙНАЯ</h3>
+                <div class="popup__content">Текст-набивака</div>
+              </div>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/form_picture_2.png">
+              <h3 class="category-preview__title category-preview__title_dark">ПЕРФОРАЦИЯ</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/form_picture_3.png">
+              <h3 class="category-preview__title category-preview__title_dark">СЕТКА</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/form_picture_3.png">
+              <h3 class="category-preview__title">ПАНЕЛИ</h3>
+            </article>
+          </div>
+        </section>
+        <section class="content-forms">
+          <h2 class="category-content__title">СИСТЕМЫ</h2>
+          <div class="main-content-categories-list">
+            <article class="category-preview">
+              <img src="./Images/system_picture_1.png">
+              <h3 class="category-preview__title">СОЛНЦЕЗАЩИТНЫЕ</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/system_picture_2.png">
+              <h3 class="category-preview__title category-preview__title_dark">ФАСАДНЫЕ</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/system_picture_3.png">
+              <h3 class="category-preview__title category-preview__title_dark">ПОТОЛОЧНЫЕ</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/system_picture_4.png">
+              <h3 class="category-preview__title">ПОДВЕСНЫЕ</h3>
+            </article>
+          </div>
+        </section>
+        <section class="content-forms">
+          <h2 class="category-content__title">СВЕТИЛЬНИКИ</h2>
+          <div class="main-content-categories-list">
+            <article class="category-preview">
+              <img src="./Images/lamp_picture_1.png">
+              <h3 class="category-preview__title">УТОПЛЕННЫЕ В ПОТОЛОК</h3>
+            </article>
+            <article class="category-preview">
+              <img src="./Images/lamp_picture_2.png">
+              <h3 class="category-preview__title category-preview__title_dark">TOKAY</h3>
+            </article>
+            <article class="category-preview preview-setka">
+              <img src="./Images/lamp_picture_2.png">
+              <h3 class="category-preview__title category-preview__title_dark">ПОТОЛОЧНЫЕ</h3>
+            </article>
+            <article class="category-preview preview-setka">
+              <img src="./Images/lamp_picture_3.png">
+              <h3 class="category-preview__title">КОМБИНИРОВАННЫЕ</h3>
+            </article>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="main-question">
+      <div class="main-question-top">
+        <h1 class="masha-question">ЗАДАЙТЕ ВОПРОС МАШЕ</h1>
       </div>
-      </div>
-      <section class="main-question">
-        <div class="main-question-top">
-          <h1 class="masha-question">ЗАДАЙТЕ ВОПРОС МАШЕ</h1>
-        </div>
-        <section class="main-question-content">
-          <div class="main-question-content-ask">
+      <section class="main-question-content">
+        <div class="main-question-content-ask">
           <img src="./Images/masha.png" class="masha-picture">
           <div class="question-connection">
             <div class="question-connectoin-FIO">
-             <p>ФИО</p>
-             <img src="./Images/user.png" class="picture-user">
-             <input class="question-connection-input" placeholder="ИВАНОВ ИВАН ИВАНОВИЧ">
+              <p>ФИО</p>
+              <img src="./Images/user.png" class="picture-user">
+              <input class="question-connection-input" placeholder="ИВАНОВ ИВАН ИВАНОВИЧ">
             </div>
             <div class="question-connectoin-FIO">
               <p>Email</p>
               <img src="./Images/user (1).png" class="picture-user">
               <input class="question-connection-input" placeholder="awesome_maria@mail.ru">
-             </div>
-             <div class="question-connectoin-FIO">
+            </div>
+            <div class="question-connectoin-FIO">
               <p>Ваш вопрос</p>
               <img src="./Images/user (2).png" class="picture-user">
-              <textarea cols="10" class="question-connection-input you-question" placeholder="Насколько долго длиться жизненный цикл кашелота появившегося в небе?"></textarea>
-             </div>
-             <button class="button_favorite ask-question">Задать вопрос</button>
+              <textarea cols="10" class="question-connection-input you-question"
+                placeholder="Насколько долго длиться жизненный цикл кашелота появившегося в небе?"></textarea>
+            </div>
+            <button class="button button_blue ask-question">Задать вопрос</button>
           </div>
-          </div>
-        </section>
-        <div class="main-question-footer"></div>
+        </div>
       </section>
+      <div class="main-question-footer"></div>
+    </section>
   </main>
   <footer>
     <section class="footer-main">
-    <section class="footer-connection">
-        <div class="header__search footer-search">
-          <input class="header__search_content" placeholder="Поиск">
-          <img src="../Artceil/Images/search.png" class="header__search_image">
+      <section class="footer-connection">
+        <div class="header-search footer-search">
+          <input class="header-search__content" placeholder="Поиск">
+          <img src="../Artceil/Images/search.png" class="header-search__image">
         </div>
-        <div class="header__connection header__connection_footer">
-          <div class="header__connection_calling"><button class="header__button button_favorite favorite-footer">Оформить заказ</button>
-            <img class="picture_favorite picture_favotirite_footer" src="../Artceil/Images/favorite.png">
+        <div class="header-connection header-connection_footer">
+          <div class="header-connection-calling"><button class="button button_green button_footer-favorite">Оформить
+              заказ</button>
+            <img
+              class="header-connection-calling__picture header-connection-calling__picture_calling picture-favotirite-footer"
+              src="../Artceil/Images/favorite.png">
           </div>
-          <div class="header__connection_calling"><button class="header__button button_calling calling-footer">Обратный вызов</button>
-            <img class="picture_calling picture_calling_footer" src="../Artceil/Images/callback.png">
+          <div class="header-connection-calling"><button
+              class="button button_blue calling button_footer-calling">Обратный вызов</button>
+            <img
+              class="header-connection-calling__picture header-connection-calling__picture_calling picture-calling-footer"
+              src="../Artceil/Images/callback.png">
           </div>
-         
+
         </div>
 
-    </section>
-    <section class="footer-menu">
-      <div class="footer-menu__content footer-menu__content_main"><a>Глав<span class="footer-menu__content_end">ная</span></a></div>
-      <div class="footer-menu__content"><a>Каталог</a></div>
-      <div class="footer-menu__content"><a>Сервис</a></div>
-      <div class="footer-menu__content"><a>Контакты</a></div>
-    </section>
-    <section id="footer-contacts" class="footer-contacts">
-      <div class="header__logo">
-        <img class="header__logo-image" src="../Artceil/Images/logo.png">
-        <div class="header__logo_content">Art<span class="Ceil">Ceil</span><span class="tochka">.</span>
-          <div class="header__logo_name">Цитадель потолочных покрытий</div>
+      </section>
+      <section class="footer-menu">
+        <div class="footer-menu__content footer-menu__content_main"><a>Глав<span
+              class="footer-menu__content_end">ная</span></a></div>
+        <div class="footer-menu__content"><a>Каталог</a></div>
+        <div class="footer-menu__content"><a>Сервис</a></div>
+        <div class="footer-menu__content"><a>Контакты</a></div>
+      </section>
+      <section id="footer-contacts" class="footer-contacts">
+        <div class="header-logo">
+          <img class="header-logo__image" src="./Images/logo.png">
+          <div class="header-logo-content">Art<span class="header-logo-content_orange">Ceil</span><span
+              class="header-logo-content_dark-purple">.</span>
+            <div class="header-logo-name">Цитадель потолочных покрытий</div>
+          </div>
         </div>
-      </div>
-      <div class="header__contacts">
-        <div>Email:<span class="header__contacts_content">shiningfinger@list.ru</span></div>
-        <div>Телефон:<span class="header__contacts_content">+7 (985) 905-12-51</span></div>
-        <div>Адрес:<span class="header__contacts_content">г. Москва, ул. Шумкина 25</span></div>
-      </div>
-    </section>
+        <div class="header-contacts">
+          <div>Email:<span class="header-contacts__content">shiningfinger@list.ru</span></div>
+          <div>Телефон:<span class="header-contacts__content">+7 (985) 905-12-51</span></div>
+          <div>Адрес:<span class="header-contacts__content">г. Москва, ул. Шумкина 25</span></div>
+        </div>
+      </section>
     </section>
     <div class="footer-bot">
-      <div class="footer-bot__content_logo"><p class="footer-bot__content">©2018 ArtCeil</p></div>
-      <div class="footer-bot__content_support"><p class="footer-bot__content">Созданно с поддержкой потолочных систем</p></div>
-      <div class="footer-bot__content_avtor"><p class="footer-bot__content">Дизайн и разработка: Филипп Журавлёв</p></div>
+      <div class="footer-bot__content_logo">
+        <p class="footer-bot__content">©2018 ArtCeil</p>
+      </div>
+      <div class="footer-bot__content_support">
+        <p class="footer-bot__content">Созданно с поддержкой потолочных систем</p>
+      </div>
+      <div class="footer-bot__content_avtor">
+        <p class="footer-bot__content">Дизайн и разработка: Филипп Журавлёв</p>
+      </div>
     </div>
 
   </footer>
